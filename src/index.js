@@ -31,3 +31,20 @@ aboutButton.addEventListener('click', () => {
 	mainContent.textContent = '';
 	mainContent.append(aboutContent);
 });
+
+
+// Suggestions chatGPT
+/* const pages = {
+	home: contentHome(),
+	menu: contentMenu(),
+	about: contentAbout(),
+};
+
+document.querySelectorAll('nav button').forEach((button) => {
+	button.addEventListener('click', () => {
+		mainContent.textContent = '';
+		mainContent.append(pages[button.id]);
+	});
+});
+
+mainContent.append(pages.home); */
